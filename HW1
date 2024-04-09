@@ -1,0 +1,15 @@
+public class HelloWorld {
+
+  public static void main( String [] args){
+    System.out.println("Họ và tên: Tạ Giang Thuỳ Loan\t");
+    System.out.println("Mã sinh viên: 23020397\t");
+    System.out.println("Lớp: AI1 K68\t");
+    System.out.println("Username: TaGiangThuyLoan\t");
+    System.out.println("Địa chỉ email: tagiangthuyloan@gmail.com\t");
+    for(int i=9; i>=1; --i){
+        System.out.println(i+" bottles of beer on the wall, " + i + " bottles of beer.\t ");
+        System.out.println("Take one down, pass it around,\t");
+    }
+    System.out.println("No more bottles of beer on the wall.");
+  }
+}
